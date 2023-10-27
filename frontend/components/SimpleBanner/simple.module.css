@@ -1,0 +1,38 @@
+.banner {
+   position: fixed;
+    height: 100vh;
+    width: 100%
+}
+
+.picture {
+    height: 100vh;
+    width: 100%;
+}
+
+.filter {
+    z-index: 2;
+    position: absolute;
+    top: 0;
+    opacity: 0.7;
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+}
+
+@media screen and (min-width: 500px) {
+    .banner, .picture, .filter {  
+        height: 120vh;   
+    }  
+}
+
+@media screen and (min-width: 1024px) {
+    .banner, .picture, .filter {  
+        height: 150vh;   
+    }  
+}
+
+@media screen and (min-width: 2000px) {
+    .banner, .picture, .filter {  
+        height: 200vh;   
+    }  
+}

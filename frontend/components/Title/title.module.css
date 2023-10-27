@@ -1,0 +1,25 @@
+.box_title {
+    position: absolute;
+    top: 140px;
+    width: 100%;
+    justify-content: center;
+    z-index: 2;
+    display: flex;
+   
+}
+
+.title {
+    display: flex;
+    padding: 20px;
+    font-size: 2em;
+    color: whitesmoke;
+    border: 2px solid whitesmoke;
+    border-radius: 20px;  
+    transition: .4s ease-in-out;
+}
+
+.title:hover {
+    color: green;
+    background-color: whitesmoke;
+}
+

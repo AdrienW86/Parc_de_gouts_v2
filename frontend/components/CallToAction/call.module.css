@@ -1,0 +1,24 @@
+.call_box {
+    position: absolute;
+    bottom: 100px;
+    z-index: 2;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.call_to_action {
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    text-decoration: none;
+    color: green;
+    border: 2px solid green;
+    background-color: whitesmoke;
+    transition: .4s ease-in-out;
+}
+
+.call_to_action:hover {
+    color: whitesmoke;
+    background-color: green
+}

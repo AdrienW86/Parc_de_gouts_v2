@@ -1,0 +1,26 @@
+{
+    "name": "parc de gouts",
+    "short_name": "parc_de_gouts",
+    "start_url": "/",
+    "scope": "/",
+    "display": "standalone",
+    "background_color": "#90cdf4",
+    "theme_color": "#90cdf4",
+    "orientation": "portrait-primary",
+    "icons": [     
+     
+      {
+        "src": "/logo.png",
+        "type": "image/png",
+        "sizes": "512x512",
+        "purpose": "maskable"
+      }
+      ,
+      {
+        "src": "/logo.webp",
+        "type": "image/webp",
+        "sizes": "144x144",
+        "purpose": "any"        
+      }     
+    ]
+  }
