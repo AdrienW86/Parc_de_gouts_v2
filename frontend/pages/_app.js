@@ -1,4 +1,5 @@
 import { useEffect } from 'react'
+import Head from 'next/head'
 import Header from '@/components/Header/Header'
 import Footer from '@/components/Footer/Footer'
 
@@ -24,6 +25,13 @@ export default function App({ Component, pageProps }) {
 
 
   return <>
+  <Head>
+    <title>Le Parc de Goûts | Location de gîtes.</title>
+    <meta
+        name="description"
+        content="Le Parc de Goûts, votre location de gîtes à Aiguillon."
+/>
+    </Head>
   <Header />
     <Component {...pageProps} /> 
   <Footer />
