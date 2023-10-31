@@ -24,7 +24,8 @@ export default function BootstrapCarousel() {
       {items.map((item) => (
         <Carousel.Item key={item.id} className={styles.itemP}>
           <img     
-            src={item.imageUrl} 
+            src={item.imageUrl}
+            fill 
             loading="lazy"
             alt="slides"                                        
             className={styles.picture}
