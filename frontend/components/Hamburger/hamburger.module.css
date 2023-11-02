@@ -45,7 +45,7 @@
   
   .open .line, .close .line {
     transition: .4s ease-in-out;
-    background-color: rgb(255, 255, 255);
+    background-color: #0071BD;
   }
   
   .open:hover .line, .close:hover .line {
@@ -74,7 +74,7 @@
     justify-content: center;
     transition: .4s ease-in-out;
     text-decoration: none;
-    color: rgb(255, 255, 255)
+    color: #0071BD
   }
   
   .menu_link:hover {
