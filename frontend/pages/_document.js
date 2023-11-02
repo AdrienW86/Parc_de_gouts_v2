@@ -10,7 +10,7 @@ class MyDocument extends Document {
           <link rel="manifest" href="/manifest.json" />
           <link rel="apple-touch-icon" href="/logo.png" />
           <meta name="description" content="réservation de gîtes près d'Aiguillon" />
-          <meta name="apple-mobile-web-app-status-bar" content="#2196f3" />
+          <meta name="apple-mobile-web-app-status-bar" content="#0071BD" />
           <meta name="google-site-verification" content="3K1_UF2x676WQgfm1nXVjWMIMFgPRw9Rl-gMi2vLwzY" />
           <meta name="theme-color" content="#2196f3" />
         </Head>
