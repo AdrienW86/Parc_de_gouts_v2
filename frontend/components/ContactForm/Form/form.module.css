@@ -9,7 +9,7 @@
     padding: 16px;
     border-radius: 20px;
     border: 2px solid rgb(255, 255, 255);
-    background-color: rgb(3, 85, 3);
+    background-color: #0071BD;
 }
 
 .row {
@@ -45,12 +45,12 @@
     border-radius: 10px;
     color: white;
     transition: .4s ease-in-out;
-    background-color: rgb(3, 85, 3);
+    background-color: #0071BD;
     border: 2px solid rgb(255, 255, 255);
 }
 
 .submit:hover {
    cursor: pointer;
-   color: rgb(3, 85, 3);
+   color: #0071BD;
    background-color: white;
 }

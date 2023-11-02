@@ -12,13 +12,13 @@
     border-radius: 10px;
     font-weight: bold;
     text-decoration: none;
-    color: green;
-    border: 2px solid green;
+    color: #0071BD;
+    border: 2px solid #0071BD;
     background-color: whitesmoke;
     transition: .4s ease-in-out;
 }
 
 .call_to_action:hover {
     color: whitesmoke;
-    background-color: green
+    background-color: #0071BD
 }
