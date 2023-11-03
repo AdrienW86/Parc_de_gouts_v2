@@ -54,8 +54,6 @@ export default async function handler(req, res) {
 		} catch {
 			res.status(500).json({
 				message: "ERROR_WITH_SENDGRID",
-			});
-			
-		}
-	
+			});			
+		}	
 }
