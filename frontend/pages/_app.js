@@ -30,8 +30,8 @@ export default function App({ Component, pageProps }) {
     <meta
         name="description"
         content="Le Parc de Goûts, votre location de gîtes à Aiguillon."
-/>
-    </Head>
+    />
+  </Head>
   <Header />
     <Component {...pageProps} /> 
   <Footer />

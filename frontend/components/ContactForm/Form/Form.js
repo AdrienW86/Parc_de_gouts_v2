@@ -34,6 +34,7 @@ export default function Form() {
     
             if (!response.ok) {
                 console.log("error");
+                alert("le formulaire n'as pas pu être envoyer")
             } else {
                 console.log("ok");
                 reset();
