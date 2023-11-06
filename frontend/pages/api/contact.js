@@ -1,3 +1,5 @@
+require('dotenv').config();
+
 import sgMail from "@sendgrid/mail";
 sgMail.setApiKey(process.env.SEND_GRID_KEY);
 
@@ -40,8 +42,7 @@ export default async function handler(req, res) {
 			email: email,
 			message: contenu,
 			phone: phone
-		},
-		
+		},		
 	};
 	console.log(sendGridMail)
    
