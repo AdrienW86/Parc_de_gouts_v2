@@ -29,7 +29,7 @@ export default async function handler(req, res) {
 		 .replace(/\t/g, "<br>")
 		 .replace(/<(?!br\s*\/?)[^>]+>/g, "");      
 
-        	// Création du message
+        
 	const sendGridMail = {
 		to: process.env.EMAIL_CLIENT,
 		from: process.env.EMAIL_MASTER,
