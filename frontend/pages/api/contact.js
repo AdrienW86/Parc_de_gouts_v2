@@ -1,5 +1,3 @@
-require('dotenv').config();
-
 import sgMail from "@sendgrid/mail";
 sgMail.setApiKey(process.env.SEND_GRID_KEY);
 
