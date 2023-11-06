@@ -34,11 +34,12 @@ export default function Form() {
     
             if (!response.ok) {
                 console.log("error");
-                alert("le formulaire n'as pas pu être envoyer")
+                alert("le formulaire n'as pas pu être envoyé")
             } else {
                 console.log("ok");
                 reset();
                 setIsSended(true);
+                alert("le formulaire a été envoyé avec succès")
             }
         }
     };
