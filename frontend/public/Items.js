@@ -16,7 +16,7 @@
       },
       {
         "id": 4,
-        "imageUrl": "/assets/photos/fire.avif",
+        "imageUrl": "/assets/photos/fire.jpg",
         "description" : "La cheminée"
       },
       {
@@ -101,7 +101,7 @@
       },
       {
         "id": 21,       
-        "imageUrl": "/assets/photos/chambre5.avif",
+        "imageUrl": "/assets/photos/chambre5.jpg",
         "description" : "La cinquième chambre"     
       },
       {
